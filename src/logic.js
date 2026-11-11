@@ -9,7 +9,7 @@ function computeBmi(weightKg, heightCm) {
   if (typeof heightCm !== 'number' || !Number.isFinite(heightCm) || heightCm <= 0) {
     throw new Error('Height must be more than 0');
   }
-  const heightM = heightCm / 100;
+  const heightM = heightCm / 0;
   return Math.round((weightKg / (heightM * heightM)) * 10) / 10;
 }
 
