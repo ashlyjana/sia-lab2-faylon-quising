@@ -1,0 +1,14 @@
+{
+  "name": "sia-lab2-bmi",
+  "version": "1.0.0",
+  "description": "BMI Calculator - SIA 101 Laboratory Work 2",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
